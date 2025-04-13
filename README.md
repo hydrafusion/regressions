@@ -1,4 +1,4 @@
-# LAPACK Regression for High-Performance Data Analysis
+# Regression Implmentation with LAPACK QR Decomposition
 
 ## Overview
 
