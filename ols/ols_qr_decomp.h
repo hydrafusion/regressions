@@ -1,6 +1,6 @@
 // multivariate_intercept.h
-#ifndef MULTIVARIATE_INTERCEPT_H
-#define MULTIVARIATE_INTERCEPT_H
+#ifndef OLS_QR_DECOMP_H
+#define OLS_QR_DECOMP_H
 
 typedef struct {
   double *betas;
