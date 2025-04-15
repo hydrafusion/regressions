@@ -31,3 +31,12 @@ C without the heavy bloat introduced by layers of abstraction. This approach
 ensures that computational tasks are efficiently integrated into modern data
 analysis ecosystems. By keeping the design lean, it promotes speed and resource
 efficiency, making it ideal for high-volume and real-time data processing tasks.
+
+## Compilation
+
+To compile the regressions, you must link lapack, also the differnt header files
+that you wish to use.
+
+```
+gcc -o test_regression test.c ols/ols_qr_decomp.c -lopenblas -llapacke -lm
+```
